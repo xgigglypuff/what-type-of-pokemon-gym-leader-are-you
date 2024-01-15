@@ -1,7 +1,7 @@
 <h1 align="center">What Type of Pokemon Gym Leader are You?</h1>
 
 <div align="center">
-  Take the quiz!
+  Take the quiz <a href="https://what-type-of-pokemon-gym-leader-are-you.onrender.com">here</a>!
 </div>
 
 <div align="center">
