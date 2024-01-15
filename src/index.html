@@ -1,0 +1,74 @@
+<html>
+<head>
+    <title></title>
+    <link href="style.css" rel="stylesheet"></link>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+</head>
+<body>
+    <header></header>
+
+    <div class="questions"></div>
+
+    <div class="error-container hidden"></div>
+
+    <div class="button-container">
+        <button id="submit">Submit</button>
+    </div>
+
+    <!--source: https://www.w3schools.com/howto/howto_css_modals.asp -->
+    <div class="modal hidden" id="resultsModal">
+        <div class="modal-container">
+            <div  class="close"><button id="close-modal">X</button></div>
+            <div class="modal-content"></div>
+            <div class="end-buttons">
+                <button class="end" id="try-again">Try Again</button>
+                <button class="end" id="share">Share</button>
+            </div>
+        </div>
+    </div>
+
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous">
+    </script>
+    <script src="main.js"></script>
+</body>
+<footer>
+    <div class="madeBy">
+        <h4 id="creator-tag">made by xGigglypuff.</h4>
+        <a href="https://ko-fi.com/gigglypuff"><img class="support-button" src="media/support-the-dev.png"></a>
+    </div>
+    <div class="footerLists">
+        <div class="footerList">
+            <h5 class="footerHeadings">Find Me</h5>
+            <a href="https://twitter.com/xGigglypuff">Twitter</a>
+            <a href="https://www.twitch.tv/xGigglypuff/">Twitch</a>
+            <a href="https://www.youtube.com/@xGigglypuff/featured">YouTube</a>
+            <a href="https://www.instagram.com/gov.madison/">Instagram</a>
+            <a href="https://www.reddit.com/user/xgigglypuff">Reddit</a>
+        </div>
+        <div class="footerList">
+            <h5 class="footerHeadings">The Quiz</h5>
+            <a href="index.html">Home</a>
+            <a href="#">Reset Answers</a>
+            <a href="algorithm.html">The Algorithm</a>
+        </div>
+        <div class="footerList">
+            <h5 class="footerHeadings">Resources</h5>
+            <a href="art-credits.html">Art Credits</a>
+            <a href="code-resources.html">Code Resources</a>
+            <a href="related-quizzes.html">Related Quizzes</a>
+        </div>
+        <div class="footerList">
+            <h5 class="footerHeadings">More Pokemon!</h5>
+            <a href="https://www.pokemon.com/us/pokemon-video-games/all-pokemon-games">Play the Games</a>
+            <a href="https://www.pokemon.com/us/animation">Watch the Anime</a>
+            <a href="https://www.pokemoncenter.com/">Get Merch</a>
+        </div>
+    </div>
+    <div class="jigglyContainer">
+        <img id="jigglypuff" src="media/jigglypuff-smile.gif"/>
+    </div>
+</footer>
+</html>

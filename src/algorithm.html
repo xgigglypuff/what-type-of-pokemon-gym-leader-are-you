@@ -1,0 +1,241 @@
+<html>
+<head>
+    <title>Understand the Algorithm</title>
+    <link href="info-style.css" rel="stylesheet"></link>
+</head>
+<body>
+    <header>
+        <h1>Understand the Algorithm</h1>
+        <img class="background-img" src="media/pokemon-header.jpg"/>
+    </header>
+
+    <div class="algorithm-explanation">
+        <p>
+            This program is a quiz that tells you which type of gym leader you would be in the fictional universe of Pokemon. 
+            This quiz has 8 questions with a varying number of answer options for each.
+            Each answer corresponds to one or multiple outcomes and increments the total points towards the outcome accordingly, 
+            but some questions are also weighted.
+            Every question is rated normally on a 1.0 scale, except for the video game franchise question, weighted as 0.5, 
+            because I did not feel that it correlated as strongly as the others. 
+            The final question, which asks you which Pokemon type you think you'd be, is only used as a tiebreaker.
+            Below is each question explanation and the meaning of each answer:
+        </p>
+        <div class="algorithm-container">
+                <div class="question">Question 1: Pick a Pokemon for your team.</div>
+                <p>Description: For this question, the selected Pokemon's types increment your total score for those types.</p>
+            <ul>
+                <li>Pikachu = Electric</li>
+                <li>Charizard = Fire, Flying</li>
+                <li>Greninja = Dark, Water</li>
+                <li>Snorlax = Normal</li>
+                <li>Lucario = Fighting, Steel</li>
+                <li>Mamoswine = Ice, Ground</li>
+                <li>Dragapult = Dragon, Ghost</li>
+                <li>Gengar = Poison, Ghost</li>
+                <li>Umbreon = Dark</li>
+                <li>Gardevoir = Psychic, Fairy</li>
+                <li>Venusaur = Poison, Grass</li>
+                <li>Shuckle = Bug, Rock</li>
+                <li>Tyranitar = Dark, Rock</li>
+                <li>Scizor = Bug, Steel</li>
+                <li>Clefable = Fairy</li>
+            </ul>
+        </div>
+        <div class="algorithm-container">
+                <div class="question">Question 2: Where would you prefer to live?</div>
+                <p>Description: For this question, each location corresponds with types of Pokemon.</p>
+            <ul>
+                <li>The Beach = Water</li>
+                <li>The Misty Mountains = Grass, Dragon, Fairy</li>
+                <li>The Desert = Ground, Fire</li>
+                <li>A Winter Wonderland = Ice, Rock</li>
+                <li>The Big City = Electric, Fighting, Steel</li>
+                <li>The Forest = Fairy, Poison, Grass, Rock</li>
+                <li>A Haunted Village = Dark, Ghost, Psychic</li>
+                <li>A Small Town = Normal</li>
+                <li>Umbreon = Dark</li>
+                <li>Gardevoir = Psychic, Fairy</li>
+                <li>A Butterfly Garden = Flying, Bug, Fairy</li>
+                <li>Always Traveling! = Flying, Electric</li>
+            </ul>
+        </div>
+        <div class="algorithm-container">
+                <div class="question">Question 3: Which is your favorite activity?</div>
+                <p>Description: For this question, each activity corresponds with types of Pokemon.</p>
+            <ul>
+                <li>working out = Fighting</li>
+                <li>swimming = Water</li>
+                <li>reading a fantasy book = Fairy, Dragon</li>
+                <li>hiking = Grass</li>
+                <li>rock climbing = Rock</li>
+                <li>sunbathing = Fire</li>
+                <li>studying chemistry = Poison</li>
+                <li>just chilling with friends = Normal</li>
+                <li>ziplining = Flying</li>
+                <li>playing any and all video games = Electric</li>
+                <li>catching fireflies = Bug</li>
+                <li>accidentally staying up all night long = Dark</li>
+                <li>horror games with friends = Ghost</li>
+                <li>reading tarot cards = Psychic</li>
+                <li>slaying monsters in an RPG = Dragon</li>
+                <li>hanging in discord vc = Electric</li>
+                <li>gardening = Ground</li>
+                <li>walking downtown in the city = Steel</li>
+                <li>skiing = Ice</li>
+                <li>traveling to new places = Flying</li>
+                <li>cooking = Poison</li>
+            </ul>
+        </div>
+        <div class="algorithm-container">
+                <div class="question">Question 4: Which of these best describes your aesthetic?</div>
+                <p>Description: For this question, each aesthetic corresponds with types of Pokemon.</p>
+            <ul>
+                <li>fairycore = Fairy</li>
+                <li>egirl ~ eboy = Electric</li>
+                <li>alternative = Dark</li>
+                <li>indie = Psychic, Poison</li>
+                <li>goth = Dark, Ghost</li>
+                <li>cottagecore = Grass</li>
+                <li>outdoorsy = Grass, Ground, Rock</li>
+                <li>sporty = Fighting, Flying</li>
+                <li>clean = Normal</li>
+                <li>beachy = Water</li>
+                <li>country = Grass, Rock, Ground</li>
+                <li>lots of neutrals = Ground</li>
+                <li>casual = Normal</li>
+                <li>cyberpunk = Steel, Electric</li>
+                <li>streetwear = Fire</li>
+                <li>luxury = Rock, Steel</li>
+            </ul>
+        </div>
+        <div class="algorithm-container">
+                <div class="question">Question 5: What are you most afraid of?</div>
+                <p>Description: This question uses your fears to assess your weaknesses. Thus, the type that the answer corresponds to is a type that you are weak to, according to the <a href="https://pokemondb.net/type">Pokemon Type Chart</a>.</p>
+            <ul>
+                <li>ghosts = Weak to Ghost Types: Flying, Ghost</li>
+                <li>the ocean = Weak to Water Types: Fire, Ground, Rock</li>
+                <li>the dark = Weak to Dark Types: Psychic, Ghost</li>
+                <li>the wilderness = Weak to Grass Types: Water, Ground, Rock</li>
+                <li>volcanic eruptions = Weak to Fire Types: Grass, Ice, Bug, Steel</li>
+                <li>heights = Weak to Flying Types: Grass, Fighting, Bug</li>
+                <li>earthquakes = Weak to Ground Types: Electric, Fire, Poison, Rock, Steel</li>
+                <li>pretty girls = Weak to Fairy Types: Fighting, Dragon, Dark</li>
+                <li>being poisoned = Weak to Poison Types: Grass, Fairy</li>
+                <li>indsutrialization = Weak to Steel Types: Ice, Rock, Fairy</li>
+                <li>lightning = Weak to Electric Types: Water, Flying</li>
+                <li>mythical creatures = Weak to Dragon Types: Dragon</li>
+                <li>the cold = Weak to Ice Types: Grass, Ground, Flying, Dragon</li>
+                <li>normies = Weak to Normal Types: None</li>
+                <li>rockslide = Weak to Rock Types: Fire, Ice, Flying, Bug</li>
+                <li>spiders = Weak to Bug Types: Grass, Psychic, Dark</li>
+                <li>the future = Weak to Psychic Types: Fighting, Poison</li>
+                <li>fighting = Weak to Fighting Types: Normal, Ice, Rock, Dark, Steel</li>
+            </ul>
+        </div>
+        <div class="algorithm-container">
+                <div class="question">Question 6: What's your favorite game franchise?</div>
+                <p>Description: For this question, each video game corresponds with types of Pokemon.</p>
+            <ul>
+                <li>ghosts = Weak to Ghost Types: Flying, Ghost</li>
+                <li>the ocean = Weak to Water Types: Fire, Ground, Rock</li>
+                <li>the dark = Weak to Dark Types: Psychic, Ghost</li>
+                <li>the wilderness = Weak to Grass Types: Water, Ground, Rock</li>
+                <li>volcanic eruptions = Weak to Fire Types: Grass, Ice, Bug, Steel</li>
+                <li>heights = Weak to Flying Types: Grass, Fighting, Bug</li>
+                <li>earthquakes = Weak to Ground Types: Electric, Fire, Poison, Rock, Steel</li>
+                <li>pretty girls = Weak to Fairy Types: Fighting, Dragon, Dark</li>
+                <li>being poisoned = Weak to Poison Types: Grass, Fairy</li>
+                <li>indsutrialization = Weak to Steel Types: Ice, Rock, Fairy</li>
+                <li>lightning = Weak to Electric Types: Water, Flying</li>
+                <li>mythical creatures = Weak to Dragon Types: Dragon</li>
+                <li>the cold = Weak to Ice Types: Grass, Ground, Flying, Dragon</li>
+                <li>normies = Weak to Normal Types: None</li>
+                <li>rockslide = Weak to Rock Types: Fire, Ice, Flying, Bug</li>
+                <li>spiders = Weak to Bug Types: Grass, Psychic, Dark</li>
+                <li>the future = Weak to Psychic Types: Fighting, Poison</li>
+                <li>fighting = Weak to Fighting Types: Normal, Ice, Rock, Dark, Steel</li>
+            </ul>
+        </div>
+        <div class="algorithm-container">
+                <div class="question">Question 7: What's your personality like?</div>
+                <p>Description: For this question, each personality trait corresponds with types of Pokemon.</p>
+            <ul>
+                <li>chill = Ice, Normal</li>
+                <li>feisty = Fire</li>
+                <li>bubbly = Water, Electric, Fairy</li>
+                <li>outspoken = Fighting</li>
+                <li>mysterious = Dark, Ghost</li>
+                <li>toxic = Poison</li>
+                <li>enchanting = Dragon, Fairy</li>
+                <li>clever = Psychic, Poison</li>
+                <li>daydreamer = Flying, Fairy</li>
+                <li>dependable = Rock, Steel</li>
+                <li>down to earth = Ground</li>
+                <li>nurturing = Grass, Fairy</li>
+                <li>free-spirited = Flying</li>
+                <li>energetic = Electric</li>
+                <li>adventurous = Flying</li>
+                <li>determined = Fighting</li>
+                <li>persistent = Bug</li>
+                <li>resilient = Rock, Steel</li>
+                <li>intuitive = Psychic</li>
+                <li>passionate = Fire</li>
+            </ul>
+        </div>
+        <div class="algorithm-container">
+            <ul class="coding-resources-list">
+                <div class="question">Question 8: What type of Pokemon trainer do YOU think you'd be?</div>
+                <p>Description: This question is used only as a tiebreaker. Each type corresponds directly to that type.</p>
+        </div>
+    </div>
+
+    <div class="button-container">
+        <button id="go-back">Go Back</button>
+    </div>
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous">
+    </script>
+    <script src="info.js"></script>
+</body>
+<footer>
+    <div>
+        <h4 id="creator-tag">made by xGigglypuff.</h4>
+        <div class="support-button">
+            <a href="https://ko-fi.com/gigglypuff"><img src="media/support-the-dev.png"></a>
+        </div>
+    </div>
+    <div class="footerLists">
+        <div class="footerList">
+            <h5 class="footerHeadings">Find Me</h5>
+            <a href="https://twitter.com/xGigglypuff">Twitter</a>
+            <a href="https://www.twitch.tv/xGigglypuff/">Twitch</a>
+            <a href="https://www.youtube.com/@xGigglypuff/featured">YouTube</a>
+            <a href="https://www.instagram.com/gov.madison/">Instagram</a>
+            <a href="https://www.reddit.com/user/xgigglypuff">Reddit</a>
+        </div>
+        <div class="footerList">
+            <h5 class="footerHeadings">The Quiz</h5>
+            <a href="index.html">Home</a>
+            <a href>Reset Answers</a>
+            <a href="algorithm.html">The Algorithm</a>
+        </div>
+        <div class="footerList">
+            <h5 class="footerHeadings">Resources</h5>
+            <a href="art-credits.html">Art Credits</a>
+            <a href="code-resources.html">Code Resources</a>
+            <a href="related-quizzes.html">Related Quizzes</a>
+        </div>
+        <div class="footerList">
+            <h5 class="footerHeadings">More Pokemon!</h5>
+            <a href="https://www.pokemon.com/us/pokemon-video-games/all-pokemon-games">Play the Games</a>
+            <a href="https://www.pokemon.com/us/animation">Watch the Anime</a>
+            <a href="https://www.pokemoncenter.com/">Get Merch</a>
+        </div>
+    </div>
+    <div>
+        <img id="jigglypuff" src="media/jigglypuff-smile.gif"/>
+    </div>
+</footer>
+</html>
