@@ -149,7 +149,7 @@ $.getJSON("data.json", function(data) {
     var shareData = {
         title: "What Type of Pokemon Gym Leader are You?",
         text: "Take the quiz to find out!",
-        url: "https://developer.mozilla.org",
+        url: "https://what-type-of-pokemon-gym-leader-are-you.onrender.com",
       };
     
     // have the share button share the quiz link
