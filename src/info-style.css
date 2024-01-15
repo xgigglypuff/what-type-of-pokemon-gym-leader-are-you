@@ -230,3 +230,135 @@ footer {
     margin: 0px 20px 0px 20px;
     text-align: center;
 }
+
+/* making mobile friendly */
+@media (max-width: 600px) {
+    header {
+            margin-bottom: 40px;
+        }
+
+    h1 {
+            text-align: center;
+            font-size: 28px;
+        }
+
+    .algorithm-explanation > p {
+            width: 97%;
+            font-size: 13px;
+        }
+
+    .algorithm-container {
+            width: 92%
+        }
+    
+    .algorithm-container > ul {
+            margin: 0;
+        }
+
+    .question {
+            font-size: 16px;
+        }
+
+    .algorithm-container > p {
+            font-size: 13px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    
+    .coding-resources-list {
+            padding: 10px;
+        }
+    
+    .coding-resources-list > p {
+            font-size: 13px;
+        }
+
+    .credits > p {
+            margin: 0px 0px 5px 0px;
+            width: 80%;
+            text-align: center;
+            font-size: 13px;
+        }
+
+    .credits-container {
+            width: 90%;
+            margin: 0;
+        }
+
+    .credits-container > ul {
+            margin: 10px 0px 10px 0px;
+        }
+    
+    .credits-container > ul > li {
+            font-size: 11px;
+            margin-bottom: 10px;
+        }
+    
+    .credits-container > ul > li > a {
+            font-size: 9px;
+            padding: 1px 3px;
+        }
+
+    #go-back {
+            font-size: 18px;
+            padding: 10px 10px;
+            margin-top: 10px;
+        }
+
+    .background-img {
+            width: 100%;
+        }
+
+    footer {
+            height: auto;
+            flex-direction: column;
+        }
+
+    .footerLists {
+            margin: 0;
+            width: 100%;
+            flex-wrap: wrap
+        }
+
+    .footerList {
+            margin: 0;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+    .footerHeadings {
+            width: auto;
+        }
+
+    #creator-tag {
+            width: auto;
+            font-size: 22px;
+            margin: 10px;
+        }
+
+    .support-button {
+            margin: 10px;
+            width: 150px;
+        }
+
+    .madeBy {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+
+    .jigglyContainer {
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+    #jigglypuff {
+            margin-top: 30px;
+            margin-right: 30px;
+            max-width: 40px;
+            max-height: 40px;
+        }
+}
