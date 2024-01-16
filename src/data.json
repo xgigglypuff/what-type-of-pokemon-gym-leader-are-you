@@ -485,7 +485,7 @@
                     "outcome": ["grass", "fairy"]
                 },
                 {
-                    "text": "&#127970 indsutrialization &#127970",
+                    "text": "&#127970 industrialization &#127970",
                     "answer_bg": "rgb(230, 230, 230)",
                     "outcome": ["ice", "rock", "fairy"]
                 },
