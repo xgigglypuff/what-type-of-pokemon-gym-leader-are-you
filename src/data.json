@@ -6,92 +6,110 @@
             "normal":   {
                             "img": "media/outcome-normal.jpg", 
                             "type": "Normal",
-                            "text": "You are a normal type gym leader, like the legendary Whitney of Johto and the overworked, underpaid Larry of Paldea. You are friendly and approachable, like the designs of your team of normal types. You have common interests and enjoy the basics in life. As a normal type leader, you are liked by most without many enemies. While you are strong against most adversities, you often avoid controversy and fighting. Deep down, you disregard superficialities and care most about the things that really matter."
+                            "text": "You are a normal type gym leader, like the legendary Whitney of Johto and the overworked, underpaid Larry of Paldea. You are friendly and approachable, like the designs of your team of normal types. You have common interests and enjoy the basics in life. As a normal type leader, you are liked by most without many enemies. While you are strong against most adversities, you often avoid controversy and fighting. Deep down, you disregard superficialities and care most about the things that really matter.",
+                            "card": "media/cards/card-normal.png"
                         },
             "fire":     {
                             "img": "media/outcome-fire.jpg", 
                             "type": "Fire",
-                            "text": "You are a fire type gym leader, like our fiery girl Mela of Paldea and the powerful Kabu of Galar. You love the summer sunshine and the latest fashion trends, but even without the trends, your aesthetic is usually pretty fire, no pun intended. You might be feisty, but we know that feistiness comes from spirit and true passion. You will achieve your dreams!"
+                            "text": "You are a fire type gym leader, like our fiery girl Mela of Paldea and the powerful Kabu of Galar. You love the summer sunshine and the latest fashion trends, but even without the trends, your aesthetic is usually pretty fire, no pun intended. You might be feisty, but we know that feistiness comes from spirit and true passion. You will achieve your dreams!",
+                            "card": "media/cards/card-fire.png"
                         },
             "water":    {
                             "img": "media/outcome-water.jpg", 
                             "type": "Water",
-                            "text": "You are a water type gym leader. You are among the greats: Nessa the mermaid model of Galar, our best girl Misty of Kanto, the dangerous Crasher Wake of Sinnoh, and the hilarious Kofu of Paldea. You thrive near the water, of course, whether it be the beach, the swim club, or the hot tub. You're bubbly and outgoing with a group of friends that love your energy. While being chill most of the time, you still lead your team to victory with fierce determination. I'll see you at the Pokemon League this year for sure! "
+                            "text": "You are a water type gym leader. You are among the greats: Nessa the mermaid model of Galar, our best girl Misty of Kanto, the dangerous Crasher Wake of Sinnoh, and the hilarious Kofu of Paldea. You thrive near the water, of course, whether it be the beach, the swim club, or the hot tub. You're bubbly and outgoing with a group of friends that love your energy. While being chill most of the time, you still lead your team to victory with fierce determination. I'll see you at the Pokemon League this year for sure! ",
+                            "card": "media/cards/card-water.png"
                         },
             "grass":    {
                             "img": "media/outcome-grass.jpg", 
                             "type": "Grass",
-                            "text": "You are a grass type gym leader. You might be similar to Milo, the kind and handsome giant of Galar, or Gardenia, the outdoorsy cutie of Sinnoh. You love exploring the outdoors; nothing refreshes you like the fresh air and beautiful, natural scenery. You love the charming idea of a cottage in a garden or a cabin in the woods. You take care of the world around you, and we appreciate you for it!"
+                            "text": "You are a grass type gym leader. You might be similar to Milo, the kind and handsome giant of Galar, or Gardenia, the outdoorsy cutie of Sinnoh. You love exploring the outdoors; nothing refreshes you like the fresh air and beautiful, natural scenery. You love the charming idea of a cottage in a garden or a cabin in the woods. You take care of the world around you, and we appreciate you for it!",
+                            "card": "media/cards/card-grass.png"
                         },
             "electric": {
                             "img": "media/outcome-electric.jpg", 
                             "type": "Electric",
-                            "text": "You are an electric type gym leader, like Iono the streamer of Paldea and Volkner, the worthy challenger of Sinnoh. You probably like spending time online, whether it's in discord, playing games, or streaming! While you might not be a person who'd love to spend all their time in the wilderness, you probably still want to explore the big cities, traveling to see what the world has to offer. You thrive in the city and in your online group of friends because, deep down, you love community...and your community loves you back. They will all be cheering for you at the Pokemon League Championships, good luck!"
+                            "text": "You are an electric type gym leader, like Iono the streamer of Paldea and Volkner, the worthy challenger of Sinnoh. You probably like spending time online, whether it's in discord, playing games, or streaming! While you might not be a person who'd love to spend all their time in the wilderness, you probably still want to explore the big cities, traveling to see what the world has to offer. You thrive in the city and in your online group of friends because, deep down, you love community...and your community loves you back. They will all be cheering for you at the Pokemon League Championships, good luck!",
+                            "card": "media/cards/card-electric.png"
                         },
             "ice":      {
                             "img": "media/outcome-ice.jpg", 
                             "type": "Ice",
-                            "text": "You are an ice type gym leader, like the powerful Wulfric of Kalos or the equally powerful ~ equally cute Candice of Sinnoh. You might not love the humid heat outdoors, but your heart is still warm with ferocity for battle and loyalty to your friends. Chill, calm, and collected...you are a force to be reckoned with on the Pokemon battlefield...and a favorite person for your friends to have around. You keep us steady. Thank you for being you!"
+                            "text": "You are an ice type gym leader, like the powerful Wulfric of Kalos or the equally powerful ~ equally cute Candice of Sinnoh. You might not love the humid heat outdoors, but your heart is still warm with ferocity for battle and loyalty to your friends. Chill, calm, and collected...you are a force to be reckoned with on the Pokemon battlefield...and a favorite person for your friends to have around. You keep us steady. Thank you for being you!",
+                            "card": "media/cards/card-ice.png"
                         },
             "fighting": {
                             "img": "media/outcome-fighting.jpg", 
                             "type": "Fighting",
-                            "text": "You are a fighting type gym leader, like the small but strong Bea of Galar or the tough Brawly of Hoenn. First and foremost, you are courageous and determined. You're probably into fitness and any physical activity. Regardless of how much you currently benchpress, you have a fighting spirit. You endure and keep going through the toughest battles, and you stand up for what you believe in. You have both the body and heart of a fighter...keep going straight to the Pokemon League Championship!"
+                            "text": "You are a fighting type gym leader, like the small but strong Bea of Galar or the tough Brawly of Hoenn. First and foremost, you are courageous and determined. You're probably into fitness and any physical activity. Regardless of how much you currently benchpress, you have a fighting spirit. You endure and keep going through the toughest battles, and you stand up for what you believe in. You have both the body and heart of a fighter...keep going straight to the Pokemon League Championship!",
+                            "card": "media/cards/card-fighting.png"
                         },
             "poison":   {
                             "img": "media/outcome-poison.jpg", 
                             "type": "Poison",
-                            "text": "You are a poison type gym leader, like the OG Koga of Kanto or the rockin' Roxie of Unova. Poison type gym leaders are very clever. However, your interests are versatile, and you could enjoy lots of different interests, even from opposite ends of the spectrum. While some poison type leaders might be interested in science, others might thrive in a dark mushroom garden. Some are amazing cooks, while others are amazing chemists! What you all have in common is that you're more knowledgable than most on some things, enough that you could even be dangerous, so others should not push your buttons. But don't worry, we know you would never use it, except on the Pokemon battlefield, of course! Thanks for keeping the rest of us informed on the things that we know nothing about. Good luck at the Pokemon League Championship!"
+                            "text": "You are a poison type gym leader, like the OG Koga of Kanto or the rockin' Roxie of Unova. Poison type gym leaders are very clever. However, your interests are versatile, and you could enjoy lots of different interests, even from opposite ends of the spectrum. While some poison type leaders might be interested in science, others might thrive in a dark mushroom garden. Some are amazing cooks, while others are amazing chemists! What you all have in common is that you're more knowledgable than most on some things, enough that you could even be dangerous, so others should not push your buttons. But don't worry, we know you would never use it, except on the Pokemon battlefield, of course! Thanks for keeping the rest of us informed on the things that we know nothing about. Good luck at the Pokemon League Championship!",
+                            "card": "media/cards/card-poison.png"
                         },
             "ground":   {
                             "img": "media/outcome-ground.jpg", 
                             "type": "Ground",
-                            "text": "You are a ground type gym leader, like the strong Bertha of Sinnoh or the friendly Hapu of Alola. You are reliable, dependable, and down to earth. Thanks for being real with the rest of us and keeping us...grounded!"
+                            "text": "You are a ground type gym leader, like the strong Bertha of Sinnoh or the friendly Hapu of Alola. You are reliable, dependable, and down to earth. Thanks for being real with the rest of us and keeping us...grounded!",
+                            "card": "media/cards/card-ground.png"
                         },
             "flying":   {
                             "img": "media/outcome-flying.jpg", 
                             "type": "Flying",
-                            "text": "You are a flying type gym leader, like Skyla of Unova, who plays by her own rules. You are a free-spirited and adventurous daydreamer. You enjoy travel, exploration, and trying exciting new things. You have your head in the clouds with big dreams...and we believe in you. Good luck out there!"
+                            "text": "You are a flying type gym leader, like Skyla of Unova, who plays by her own rules. You are a free-spirited and adventurous daydreamer. You enjoy travel, exploration, and trying exciting new things. You have your head in the clouds with big dreams...and we believe in you. Good luck out there!",
+                            "card": "media/cards/card-flying.png"
                         },
             "psychic":  {
                             "img": "media/outcome-psychic.jpg", 
                             "type": "Psychic",
-                            "text": "You are a psychic type gym leader, like the emotionally-intelligent and stunningly beautiful Tulip of Paldea...or the high-ranking Lucian of Sinnoh. You have great intuition and can rely on your instincts in battle to predict the other player's moves. You are very clever, both emotionally and intellectually. Good luck at the Pokemon League Championship...we know you will be a worthy foe!"
+                            "text": "You are a psychic type gym leader, like the emotionally-intelligent and stunningly beautiful Tulip of Paldea...or the high-ranking Lucian of Sinnoh. You have great intuition and can rely on your instincts in battle to predict the other player's moves. You are very clever, both emotionally and intellectually. Good luck at the Pokemon League Championship...we know you will be a worthy foe!",
+                            "card": "media/cards/card-psychic.png"
                         },
             "bug":      {
                             "img": "media/outcome-bug.jpg", 
                             "type": "Bug",
-                            "text": "You are a bug type gym leader, like the sweet Katy of Paldea and the adventurous Bugsy of Johto. You are persistent and resourceful in battles...and in life. You'll always find a way to push through and win. Good luck at the Pokemon League Championships, although we know you probably won't need it!"
+                            "text": "You are a bug type gym leader, like the sweet Katy of Paldea and the adventurous Bugsy of Johto. You are persistent and resourceful in battles...and in life. You'll always find a way to push through and win. Good luck at the Pokemon League Championships, although we know you probably won't need it!",
+                            "card": "media/cards/card-bug.png"
                         },
             "rock":     {
                             "img": "media/outcome-rock.jpg", 
                             "type": "Rock",
-                            "text": "You are a rock type gym leader, like our trusty old companion Brock and the steadfast Roark of Sinnoh. You are resilient and dependable, resourceful in and outside of battle. You probably appreciate impressive craftmanship, whether it's beautifully-made jewelry or a wonderfully-constructed building of old architecture. You love a breathtaking outdoor view, and some might not know this, but you probably have excellent taste. Rock type trainers always look good... And we can't wait to see you at the Pokemon League Championships this year!"
+                            "text": "You are a rock type gym leader, like our trusty old companion Brock and the steadfast Roark of Sinnoh. You are resilient and dependable, resourceful in and outside of battle. You probably appreciate impressive craftmanship, whether it's beautifully-made jewelry or a wonderfully-constructed building of old architecture. You love a breathtaking outdoor view, and some might not know this, but you probably have excellent taste. Rock type trainers always look good... And we can't wait to see you at the Pokemon League Championships this year!",
+                            "card": "media/cards/card-rock.png"
                         },
             "ghost":    {
                             "img": "media/outcome-ghost.jpg", 
                             "type": "Ghost",
-                            "text": "You are a ghost type gym leader, like the shy Allister of Galar and the mysterious Shauntal of Unova. You can be mysterious to others and probably enjoy alternative, dark aesthetics...and maybe some horror, too! Ghost types can be so difficult to beat, so we probably want to have you on our side. Good luck at the Pokemon League Championships!"
+                            "text": "You are a ghost type gym leader, like the shy Allister of Galar and the mysterious Shauntal of Unova. You can be mysterious to others and probably enjoy alternative, dark aesthetics...and maybe some horror, too! Ghost types can be so difficult to beat, so we probably want to have you on our side. Good luck at the Pokemon League Championships!",
+                            "card": "media/cards/card-ghost.png"
                         },
             "dragon":   {
                             "img": "media/outcome-dragon.jpg", 
                             "type": "Dragon",
-                            "text": "You are a dragon type gym leader, like the cool, powerful Raihan of Galar and the young champion Iris of Unova. You are among some of the greats, like Lance of Kanto and Johto, one of the greatest Elite Four members of all time. Dragon type gym leaders may enjoy escaping into a fantasy world, through games, books, and movies. They are some of the most powerful Pokemon trainers out there...and also the most attractive, let's be real! Enjoy looking good and feeling good on the battlefield at the Pokemon League Championships this year, we can't wait!"
+                            "text": "You are a dragon type gym leader, like the cool, powerful Raihan of Galar and the young champion Iris of Unova. You are among some of the greats, like Lance of Kanto and Johto, one of the greatest Elite Four members of all time. Dragon type gym leaders may enjoy escaping into a fantasy world, through games, books, and movies. They are some of the most powerful Pokemon trainers out there...and also the most attractive, let's be real! Enjoy looking good and feeling good on the battlefield at the Pokemon League Championships this year, we can't wait!",
+                            "card": "media/cards/card-dragon.png"
                         },
             "dark":     {
                             "img": "media/outcome-dark.jpg", 
                             "type": "Dark",
-                            "text": "You are a dark type gym leader, like the alt rocker Piers of Galar and everyone's favorite goth girlfriend, Marnie. You might enjoy some 'dark' interests, and you can be cunning in battle..but you are still truly kindhearted, underneath all the shyness. We love your presence...and your aesthetic!"
+                            "text": "You are a dark type gym leader, like the alt rocker Piers of Galar and everyone's favorite goth girlfriend, Marnie. You might enjoy some 'dark' interests, and you can be cunning in battle..but you are still truly kindhearted, underneath all the shyness. We love your presence...and your aesthetic!",
+                            "card": "media/cards/card-dark.png"
                         },
             "steel":    {
                             "img": "media/outcome-steel.jpg", 
                             "type": "Steel",
-                            "text": "You are a steel type gym leader. You have the resilience of Jasmine of Johto and the main character energy of Steven Stone. You are resilient and determined. You probably enjoy technology more than the others, whether it be big city exploration, the latest PC build, or flying to a new destination. We know you are a strong-willed opponent who will stop at nothing to stand your ground. When you earn a Pokemon battle victory, you definitely deserve it. Good luck at the Pokemon League Championships!"
+                            "text": "You are a steel type gym leader. You have the resilience of Jasmine of Johto and the main character energy of Steven Stone. You are resilient and determined. You probably enjoy technology more than the others, whether it be big city exploration, the latest PC build, or flying to a new destination. We know you are a strong-willed opponent who will stop at nothing to stand your ground. When you earn a Pokemon battle victory, you definitely deserve it. Good luck at the Pokemon League Championships!",
+                            "card": "media/cards/card-steel.png"
                         },
             "fairy":    {
                             "img": "media/outcome-fairy.jpg", 
                             "type": "Fairy",
-                            "text": "You are a fairy type gym leader, like the adorable Lacey of Paldea and our formal rival, Bede of Galar. You are nurturing and kind, whether secretly or outwardly, and you love companionship. You are enchanting to others around you, and they always enjoy your latest takes or your latest creative work. You probably enjoy escaping reality through fantasy. You are a gift to all of us around you. Let us just admire your beauty and kindness from afar. Good luck at the Pokemon League Championships!"
+                            "text": "You are a fairy type gym leader, like the adorable Lacey of Paldea and our formal rival, Bede of Galar. You are nurturing and kind, whether secretly or outwardly, and you love companionship. You are enchanting to others around you, and they always enjoy your latest takes or your latest creative work. You probably enjoy escaping reality through fantasy. You are a gift to all of us around you. Let us just admire your beauty and kindness from afar. Good luck at the Pokemon League Championships!",
+                            "card": "media/cards/card-fairy.png"
                         }
     },
     "questions": [
@@ -817,84 +835,6 @@
                 }
             ]
         }
-    ],
-
-    "creator_tag": "made by xGigglypuff.",
-    "support_button_text": "",
-    "footer_columns": [
-        {
-            "heading": "Find Me",
-            "links": [
-                {
-                    "text": "Twitter",
-                    "url": "https://twitter.com/xGigglypuff"
-                },
-                {
-                    "text": "Twitch",
-                    "url": "https://www.twitch.tv/xGigglypuff/"
-                },
-                {
-                    "text": "YouTube",
-                    "url": "https://www.youtube.com/@xGigglypuff/featured"
-                },
-                {
-                    "text": "Instagram",
-                    "url": "https://www.instagram.com/gov.madison/"
-                },
-                {
-                    "text": "Reddit",
-                    "url": "https://www.reddit.com/user/xgigglypuff"
-                }
-            ]
-        },
-        {
-            "heading": "The Quiz",
-            "links": [
-                {
-                    "text": "Take It Again",
-                    "url": ""
-                },
-                {
-                    "text": "The Algorithm",
-                    "url": "algorithm.html"
-                }
-            ]
-        },
-        {
-            "heading": "Resources",
-            "links": [
-                {
-                    "text": "Art Credits",
-                    "url": "art-credits.html"
-                },
-                {
-                    "text": "Code Resources",
-                    "url": "code-resources.html"
-                },
-                {
-                    "text": "Related Quizzes",
-                    "url": "related-quizzes.html"
-                }
-            ]
-        },
-        {
-            "heading": "More Pokemon!",
-            "links": [
-                {
-                    "text": "Play the Games",
-                    "url": "https://www.pokemon.com/us/pokemon-video-games/all-pokemon-games"
-                },
-                {
-                    "text": "Watch the Anime",
-                    "url": "https://www.pokemon.com/us/animation"
-                },
-                {
-                    "text": "Get Merch",
-                    "url": "https://www.pokemoncenter.com/"
-                }
-            ]
-        }
     ]
 }
-        
-        
+    
