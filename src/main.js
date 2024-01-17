@@ -122,14 +122,14 @@ $.getJSON("data.json", function(data) {
             var shareData = {
                 title: "What Type of Pokemon Gym Leader are You?",
                 text: "Take the quiz to find out what type of Pokemon Gym Leader you would be!",
-                url: "https://what-type-of-pokemon-gym-leader-are-you-tcg6.onrender.com/",
+                url: "https://what-type-of-pokemon-gym-leader-are-you.onrender.com/",
                 files: [file]
             };
 
             var shareDataLink = {
                 title: "What Type of Pokemon Gym Leader are You?",
                 text: "Take the quiz to find out what type of Pokemon Gym Leader you would be!",
-                url: "https://what-type-of-pokemon-gym-leader-are-you-tcg6.onrender.com/"
+                url: "https://what-type-of-pokemon-gym-leader-are-you.onrender.com/"
             }
 
             navigator.share(shareData)
