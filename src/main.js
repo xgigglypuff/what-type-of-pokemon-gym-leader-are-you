@@ -284,14 +284,14 @@ $.getJSON("data.json", function(data) {
 
         // display the result
         var outcomeTitle = data.outcomes[c].type;
-        var outcomeImg = data.outcomes[c].img;
+        var outcomeImg = data.outcomes[c].card;
         var outcomeText = data.outcomes[c].text;
 
         // unblock the modal display
         $("#resultsModal").removeClass("hidden");
         $("#resultsModal").addClass("visible");
 
-        $(".modal-content").append("<div class='card'><h3>" + outcomeTitle  + "</h3> <img class='outcome-img' src='" + outcomeImg + "'/></div><p>" + outcomeText + "</p>");
+        $(".modal-content").append("<div class='card'><img class='outcome-img' src='" + outcomeImg + "'/></div><p>" + outcomeText + "</p>");
 
         // return the index for the outcome
         return c;
